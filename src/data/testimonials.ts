@@ -1,0 +1,58 @@
+import { Testimonial } from '../types';
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: 'Thandi Mokoena',
+    location: 'Johannesburg, Gauteng',
+    rating: 5,
+    review: 'Nkosinathi crafted the most beautiful L-shaped couch for my living room. The quality is exceptional — it looks like something from a luxury showroom. My guests always ask where I got it!',
+    initials: 'TM',
+    color: 'bg-amber-500',
+  },
+  {
+    id: 2,
+    name: 'Sipho Dlamini',
+    location: 'Soweto, Gauteng',
+    rating: 5,
+    review: 'I ordered a full king bed with a storage base and the results were stunning. Delivered on time, perfectly finished, and the hydraulic base is so easy to use. Will definitely order again!',
+    initials: 'SD',
+    color: 'bg-wood-400',
+  },
+  {
+    id: 3,
+    name: 'Nomsa Khumalo',
+    location: 'Pretoria, Gauteng',
+    rating: 5,
+    review: 'The kitchen units transformed my home completely. Custom-fitted to my exact measurements, soft-close doors, and the finish is impeccable. Nashthul Living Design is truly talented!',
+    initials: 'NK',
+    color: 'bg-emerald-600',
+  },
+  {
+    id: 4,
+    name: 'Bongani Zwane',
+    location: 'Roodepoort, Gauteng',
+    rating: 5,
+    review: 'Ordered a custom headboard and dining table set. Both pieces are absolutely gorgeous. The communication was excellent and the workmanship is world class. Highly recommend!',
+    initials: 'BZ',
+    color: 'bg-blue-600',
+  },
+  {
+    id: 5,
+    name: 'Lerato Sithole',
+    location: 'Soweto, Gauteng',
+    rating: 5,
+    review: 'As an interior designer myself, I am very picky about furniture quality. Nashthul Living Design exceeded every expectation. The attention to detail and finish is unmatched in this price range.',
+    initials: 'LS',
+    color: 'bg-rose-500',
+  },
+  {
+    id: 6,
+    name: 'Mpho Nkosi',
+    location: 'Lenasia, Gauteng',
+    rating: 5,
+    review: 'Got a floating TV unit with LED lighting. It looks absolutely amazing in my lounge! The team was professional, friendly and delivered exactly what was promised. 10/10!',
+    initials: 'MN',
+    color: 'bg-purple-600',
+  },
+];
